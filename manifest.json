@@ -1,7 +1,7 @@
 {
   "name": "FreeNitroEmojis",
-  "description": "Emoji formatting plugin for Revenge",
   "version": "1.0.0",
+  "description": "Emoji formatting plugin for Revenge",
   "author": "nyxiereal",
-  "main": "index.js"
+  "file": "index.js"
 }
