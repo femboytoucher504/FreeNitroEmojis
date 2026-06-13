@@ -1,17 +1,13 @@
-/**
- * FreeNitroEmojis - Revenge Plugin
- */
-
-module.exports = {
+export default {
   name: "FreeNitroEmojis",
-  description: "Emoji formatting plugin for Revenge",
+  description: "Emoji plugin for Revenge",
   version: "1.0.0",
 
-  start() {
-    console.log("[FreeNitroEmojis] Plugin started");
+  onLoad() {
+    console.log("FreeNitroEmojis loaded");
   },
 
-  stop() {
-    console.log("[FreeNitroEmojis] Plugin stopped");
+  onUnload() {
+    console.log("FreeNitroEmojis unloaded");
   }
 };
